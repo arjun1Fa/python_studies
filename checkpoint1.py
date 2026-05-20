@@ -38,10 +38,35 @@ import math
 radius = int(input(" Enter the radius of the circle: " ))
 area = math.pi * math.pow(radius , 2)
 circumference = 2*math.pi*radius
-round(area , 2)
-round(circumference, 2)
+area = round(area , 2)
+circumference = round(circumference, 2)
+
 print("\nThe area of the circle is :", area)
+print("\nThe circumference of the circle is :", circumference)
 
 score = int(input("\nEnter a score of your choice : "))
 
-if score <= 100 && if score
+if 100 >= score >= 90:
+    print("You have A scores")
+    grade = "A"
+elif 89 >= score >= 80 :
+    print("You have B scores")
+    grade = "B"
+elif 79 >= score >= 70:
+        print("You have C scores")
+        grade = "c"
+elif 69 >= score >= 60:
+    print("You have D scores")
+    grade = "D"
+else:
+    print("You have failed. Try again later")
+    grade = "F"
+
+
+    
+
+
+print("The radius of the circle is :", radius)
+print("The area of the circle is ", area )
+print("The score is ", score)
+print("The grade is", grade)
