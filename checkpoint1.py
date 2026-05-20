@@ -35,7 +35,7 @@ Grade: B
 '''
 import math
 
-radius = int(input(" Enter the radius of the circle: " ))
+radius = float(input(" Enter the radius of the circle: " ))
 area = math.pi * math.pow(radius , 2)
 circumference = 2*math.pi*radius
 area = round(area , 2)
@@ -54,7 +54,7 @@ elif 89 >= score >= 80 :
     grade = "B"
 elif 79 >= score >= 70:
         print("You have C scores")
-        grade = "c"
+        grade = "C"
 elif 69 >= score >= 60:
     print("You have D scores")
     grade = "D"
@@ -68,5 +68,6 @@ else:
 
 print("The radius of the circle is :", radius)
 print("The area of the circle is ", area )
+print("The circumference of the circle is ", circumference )
 print("The score is ", score)
 print("The grade is", grade)
