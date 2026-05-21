@@ -1,4 +1,3 @@
-import math
 
 while True: 
     p = int(input("Enter initial innvestment: "))
