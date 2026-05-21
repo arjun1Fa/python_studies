@@ -10,7 +10,7 @@ print(f"{math.pi:.1}")
 '''
 
 name = "Ana"
-print(f"|{name:10}|")   # |Ana       |   (7 spaces after)
+print(f"|{name:>5}|")   # |Ana       |   (7 spaces after)
 print(f"|{name:>10}|")  # |> for right align (default)|   explicit
 print(f"|{name:<10}|")  # |Ana       |   left align
 print(f"|{name:^10}|")  # |   Ana    |   center
