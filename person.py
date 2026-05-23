@@ -11,7 +11,7 @@ print("\nSo you are ", name, age, " years old")
 
 print(name)
 print ("Anna") 
-print ("the age of ", name , "is ", int(age))*
+print ("the age of ", name , "is ", int(age))
 
 
 
