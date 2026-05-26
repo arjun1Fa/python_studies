@@ -7,35 +7,7 @@ while True:
     r = r / 100
 
     a = p * (1 + r/n)**(n*t)
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-        print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-v
-v
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-
-v
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-v
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
-    print(f"\n\n Your annual interest will be :{a:.2f}" )
-
+    print(f"\n\n Your annual interest will be :{a:.2f}" )z
 
     choice = input("DO you wish to calculate more?.. yes or no").lower()
 
